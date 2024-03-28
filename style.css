@@ -12,6 +12,11 @@
     font-variation-settings:"slnt" 0;
 }
 
+main{
+    max-width: 1360px;
+    margin: auto;
+}
+
 body{
     background: rgb(34,193,195);
     background: radial-gradient(circle, rgba(218, 48, 18, 0.432) 0%, rgb(6, 44, 80) 100%);
@@ -58,6 +63,7 @@ nav a.blue:hover{
 
 
 .one{
+    margin: 50px;
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -231,7 +237,7 @@ button a{
     border: 3px solid rgba(11, 70, 124, 0.77);
     border-radius: 10px;
     box-shadow: 11px 2px 20px rgb(11 70 124 / 32%);
-    margin: 150px;
+    margin: 25px;
 }
 
 
@@ -358,8 +364,7 @@ button a{
     align-items: center;
     width: 700px;
     border: solid #0872BF 3px;
-    border-radius: 0px 20px 20px 0px;
-    border-left: none;
+    border-radius: 20px;
     box-shadow: 3px 0px 20px #0872bf36;
 }
 
@@ -400,7 +405,7 @@ button a{
     flex-direction: column;
     align-items: center;
     border: solid #0872BF 3px;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 20px;
     box-shadow: 3px 0px 20px #0872bf36;
     width: 800px;
     margin-left: 100px;
@@ -437,9 +442,8 @@ button a{
     align-items: center;
     width: 700px;
     border: solid #0872BF 3px;
-    border-radius: 20px 0px 0px 20px;
+    border-radius: 20px;
     box-shadow: -3px 0px 20px #0872bf36;
-    border-right: none;
 }
 .costumer_three img{
     position:relative;
@@ -808,7 +812,55 @@ footer{
     }
 }
 
+@media (max-width: 360px) {
+    main{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .intro p{
+        width: 100%;
+    }
+
+    .redes{
+        display: flex;
+        flex-direction: row;
+        margin-left: 35%;
+    }
+
+    .socialnetworks .chekout{
+        display: none;
+    }
+
+    .myservice h2{
+        margin-left: auto;
+    }
+
+    .myservice h3{
+        display: none;
+    }
+
+    .twoin{
+        margin-left: 70%;
+    }
+
+    .threein{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .three h2{
+        margin-right:60%;
+    }
+
+    .three p {
+        margin-left: 8%;
+    }
+
+    .threeleft{
+        display: none;
+    }
 
 
-
+}
 
