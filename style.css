@@ -648,7 +648,7 @@ footer{
     header {
         display: flex;
         flex-direction: column;
-        margin-left: 182px;
+        margin-left: 244px;
         max-width: max-content;
         align-items: center;
     }
@@ -716,7 +716,7 @@ footer{
 
     .threeright {
         width: 720px;
-        margin-left: 144px;
+        margin-left: 251px;
     }
 
     .threeright img{
@@ -724,7 +724,7 @@ footer{
     }
 
     .prevnext{
-        margin-left: 19px;
+        margin-left: 110px;
         margin-top: 20px;
     }
 
@@ -833,7 +833,8 @@ footer{
     }
 
     .myservice h2{
-        margin-left: auto;
+        margin-right: 92px;
+        font-size: 40px;
     }
 
     .myservice h3{
@@ -841,7 +842,7 @@ footer{
     }
 
     .twoin{
-        margin-left: 70%;
+        margin-left: 45%;
     }
 
     .threein{
@@ -850,17 +851,54 @@ footer{
     }
 
     .three h2{
-        margin-right:60%;
+        margin-left: 50%;
     }
 
     .three p {
-        margin-left: 8%;
+        margin-left: -8%;
+        font-size: 14px;
+    }
+
+    .threeright {
+        width: 317px;
+        margin-left: 300px;
     }
 
     .threeleft{
         display: none;
     }
 
+    .prevnext{
+        margin-left: 169px;
+        margin-top: 0px;
+    }
 
+    .four h3 {
+        margin-left: 120px;
+    }
+
+    .four h2{
+        margin-left: 133px;
+    } 
+
+    .fourconteinerimg{
+        margin-left: 51%;
+    }
+
+    .five h2{
+        margin-left: -9%;
+    }
+
+    .sectionfiveone{
+        display: none;
+    }
+
+    .sectionfivetwo{
+        display: none;
+    }
+
+    footer{
+        margin-left: 45%;
+    }
 }
 
